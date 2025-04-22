@@ -22,6 +22,10 @@
           {
             "key": "Content-Security-Policy",
             "value": "default-src 'self'; img-src 'self' data: https://raw.githubusercontent.com; script-src 'self'; style-src 'self' 'unsafe-inline';"
+          },
+          {
+            "key": "Permissions-Policy",
+            "value": "geolocation=(self), microphone=(), camera=(), usb=()"
           }
         ]
       }
